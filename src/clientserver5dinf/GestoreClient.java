@@ -18,7 +18,7 @@ public class GestoreClient {
             Client cli= new Client(InetAddress.getLocalHost(), 2000);
             System.out.println("Client connesso");
             String str= cli.leggi();
-            CountDown cd= new CountDown(10);//Integer.getInteger(str)
+            CountDown cd= new CountDown(Integer.parseInt(str));//Integer.getInteger(str)
             cd.start();
             System.out.println("Server: Messaggio metodo leggi(): "+str);
             cli.scrivi("sinc");
