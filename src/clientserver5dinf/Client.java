@@ -24,7 +24,7 @@ public class Client {
     public Client(InetAddress ip, int porta) {
         
         try {
-            so= new Socket(ip, porta);
+                so= new Socket(ip, porta);
             br= new BufferedReader(new InputStreamReader(so.getInputStream()));
             bw= new BufferedWriter(new OutputStreamWriter(so.getOutputStream()));
             

@@ -9,6 +9,7 @@ import java.util.logging.Logger;
  *
  * @author aless
  */
+
 //AL SERVER SERVE SOLO LA PORTA AL CLIENT SERVE L'IP E LA PORTA
 public class GestoreClient {
     
